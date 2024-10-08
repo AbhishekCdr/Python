@@ -102,8 +102,115 @@ Equal: 3 == 2
 Not Equal: 3 != 2
 Greater Than: 3 > 2
 Less Than: 3 < 2
-Greater 
+Greater Than Equal: 3 >= 2
+Less Than Equal: 3 <= 2
+
 """
+
+# Type Casting
+
+num_1 = '100'
+num_2 = '200'
+
+print(num_1 + num_2) # text concatination
+
+print(int(num_1) + int(num_2)) # correct value
+
+
+# List , Tupled and Sets
+
+# Lists::
+courses = ['History', 'Math', 'Physics', 'CompSci']
+print(courses)
+
+# len og list -> len(courses)
+
+# get value in between
+print(courses[0:2]) # 2 position is exclusive
+
+# add item to the end
+courses.append('Geography')
+
+# insert item in between
+courses.insert(0, 'Art')
+
+# using extend method
+courses_2 = ['Education', 'Library']
+
+courses.extend(courses_2)
+
+# remove method -> takes only one argument
+courses.remove('Math')
+
+popped = courses.pop() #removes last value // retunr the last value
+
+print(courses)
+# reverse the list
+courses.reverse();
+
+# sorting a list -> acending order // inplace
+courses.sort()
+
+# -> decending order
+courses.sort(reverse=True)
+
+# sort without altering the original list
+sorted_course = sorted(courses)
+
+print('sorted course:', sorted_course)
+
+print(courses)
+
+# min, max, sum
+nums = [1,2,3,4,5]
+print(sum(nums))
+
+# find index of certain value
+print(courses.index('Geography'))
+
+# check for value in list > return boolean
+print('Art' in courses)
+
+# print each item using for loop
+
+# for item in courses:
+#     print(item)
+
+
+# print index with value
+
+# for index, course in enumerate(courses):
+#     print(index, course)
+
+for index, course in enumerate(courses, start=1):
+    print(index, course)
+
+
+# join the list of values
+
+course_str = ' - '.join(courses)
+# print(course_str)
+
+# split a str into a list // not in place
+new_list = course_str.split(' - ')
+print('new list', new_list)
+
+
+
+# TUPLES
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
