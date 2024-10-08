@@ -117,9 +117,12 @@ print(num_1 + num_2) # text concatination
 print(int(num_1) + int(num_2)) # correct value
 
 
-# List , Tupled and Sets
 
-# Lists::
+# LISTS::
+
+# lists are mutable
+
+
 courses = ['History', 'Math', 'Physics', 'CompSci']
 print(courses)
 
@@ -197,7 +200,63 @@ print('new list', new_list)
 
 
 
-# TUPLES
+# TUPLES::
+
+"""
+ tuples are immutable / cannot be changed
+
+ only support accesing the data as we cannot change or update and delete the data from it
+
+"""
+
+tup = ("Abhishek", "Kumar", "Sanket", "Anshul", "Kapil")
+
+# print(tup)
+
+
+# SETS::
+
+"""
+ sets don't care about order 
+ sets get rid of duplicates
+ sets are optimized for searching 
+"""
+
+cs_courses = {"History", "Math", "Physics", "CompSci"}
+art_courses = {'History', 'Math', 'Art', 'Design'}
+
+# print(cs_courses) # removes duplicates / follow no order
+print('Math' in cs_courses)
+
+
+# intersection method // gives common values 
+print(cs_courses.intersection(art_courses))
+
+
+# difference method // gives not present values
+print(cs_courses.difference(art_courses))
+
+# union of two sets
+print(cs_courses.union(art_courses))
+
+
+# Empty Lists
+empty_list = []
+empty_list = list()
+
+# Empty Tuples
+empty_tuple = ()
+empty_tuple = tuple()
+
+# Empty Sets
+empty_sets =  {} # This isn't right! Its a dictionary
+empty_sets = set()
+
+
+
+
+
+
 
 
 
