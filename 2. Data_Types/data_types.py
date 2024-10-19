@@ -209,9 +209,9 @@ print('new list', new_list)
 
 """
 
-tup = ("Abhishek", "Kumar", "Sanket", "Anshul", "Kapil")
+tup = ("Abhishek","Abhishek", "Kumar", "Sanket", "Anshul", "Kapil")
 
-# print(tup)
+print(tup)
 
 
 # SETS::
@@ -220,13 +220,14 @@ tup = ("Abhishek", "Kumar", "Sanket", "Anshul", "Kapil")
  sets don't care about order 
  sets get rid of duplicates
  sets are optimized for searching 
+
 """
 
 cs_courses = {"History", "Math", "Physics", "CompSci"}
 art_courses = {'History', 'Math', 'Art', 'Design'}
 
 # print(cs_courses) # removes duplicates / follow no order
-print('Math' in cs_courses)
+# print('Math' in cs_courses)
 
 
 # intersection method // gives common values 
