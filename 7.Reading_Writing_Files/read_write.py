@@ -20,3 +20,5 @@ with open('sample.txt', 'r') as f:
     f_readlines = f.readlines()
     print(f_readlines)
 
+
+
