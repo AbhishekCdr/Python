@@ -1,8 +1,6 @@
 # Python is primarilay a single threaded language but it does support multithreading and multi processing 
 
 """
-
-
 -> Single Threaded Nature
 
 Python has a global interpreter lock (GIL) which ecsure tat only one thread executes python bytecode at a time
