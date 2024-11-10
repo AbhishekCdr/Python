@@ -11,6 +11,8 @@ class TestCalc(unittest.TestCase):
 
 """
 TODO: 
-
 https://www.youtube.com/watch?v=6tNS--WetLI&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=21&pp=iAQB
+
+https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
+
 """
