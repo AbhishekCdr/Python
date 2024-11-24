@@ -7,7 +7,7 @@ Python has a global interpreter lock (GIL) which ecsure tat only one thread exec
 
 -> Multi Threaded Nature
 
-Python has the threadeing moudule using which we can create and manage the threads
+Python has the threading moudule using which we can create and manage the threads
 
 because of GIL multi-threading does't provide significant performance improvements for CPU bond task
 
@@ -15,4 +15,8 @@ because of GIL multi-threading does't provide significant performance improvemen
 -> Multi Processing in Python
 in order to take full advantage  Pytonn offers multiprocessing module which avoids the GIL by spawning seperate processes each with its own python interpreter
 
+
+More: https://dev.to/eteimz/how-pythons-multithreading-differs-from-other-languages-351h
+
 """
+
